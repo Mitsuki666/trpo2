@@ -1,0 +1,17 @@
+{
+    "name": "mitsuki666/trpo2",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mitsuki666",
+            "email": "melonw33ha@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Semenov\\": ""
+        }
+    }
+}
