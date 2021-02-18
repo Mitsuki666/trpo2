@@ -20,7 +20,7 @@ Class SolutionQuatro extends SolutionLine implements EquationInterface
         $disc = $this->discrim($a, $b, $c);
 
         if (0 == $a) {
-            return [$this->line($b, $c)];
+            return [$this->lin($b, $c)];
         }
         \Semenov\MyLog::log("Это квадратное уравнение");
         if ($disc > 0) {
