@@ -7,13 +7,13 @@ require __DIR__ . './../vendor/autoload.php';
 class MyLogTest extends TestCase
 {
     /**
-     * @dataProvider providerEquation
+     * @dataProvider provideLog
      */
     public function testLog($str)
     {
         $this->assertEquals('',  MyLog::log($str));
     }
-    public function providerEquation ()
+    public function providerLog ()
     {
         return array (
             array ("gncvncvn"),
